@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODE - Kitchen</title>
+    <!-- 1D Layouts: Flexbox, 2D Layouts: CSS Grid -->
+    <meta
+      name="description"
+      content="Illustrating 1D layouts (Flexbox) and 2D layouts (CSS Grid) in CSS for responsive web design."
+    />
+    <meta name="keywords" content="CSS, Flexbox, Grid, Responsive Design" />
+    <meta name="author" content="joshuaolusheye-dev" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header: Shows Flexboxin in a horizontal layout -->
+      <header class="header">
+        <div class="header-content">
+          <div class="logo">C-Kitchen</div>
+          <nav>
+            <ul class="nav">
+              <li><a href="#home">Home</a></li>
+              <li>
+                <a href="#about">About</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#overview">Overview</a></li>
+                  <li><a href="#features">Features</a></li>
+                  <li><a href="#faq">FAQ</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#team">Team</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#UI/UX Expert">UI/UX Expert</a></li>
+                  <li><a href="#Project Manager">Project Manager</a></li>
+                  <li><a href="#Programmers">Programmers</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#support">Support</a></li>
+                  <li><a href="#sales">Sales</a></li>
+                  <li><a href="#careers">Careers</a></li>
+                </ul>
+              </li>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HERO: Demonstrates Flexbox for perfect centering -->
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <h1>Designs and Power of Tech</h1>
+          <p>
+            Showcasing the power of Flexbox and Grid for responsive web design
+            that adapts beautifully across all devices.
+          </p>
+          <a href="#content" class="cta-button">Explore Features</a>
+        </div>
+      </section>
+
+      <!-- MAIN LAYOUT: Demonstrates CSS Grid for 2D layout -->
+      <main class="main-layout">
+        <!-- CONTENT SECTION -->
+        <section class="content" id="content">
+          <h2>Responsive Design Principles</h2>
+          <p>
+            This webpage demonstrates how modern CSS layout techniques can
+            create flexible, responsive designs that work across all screen
+            sizes. We use CSS Grid for overall page structure and Flexbox for
+            component-level layouts.
+          </p>
+
+          <p>
+            The combination of these technologies allows for precise control
+            over both one-dimensional and two-dimensional layouts, enabling
+            complex designs that remain maintainable and accessible.
+          </p>
+
+          <!-- CSS GRID: Auto-fitting content blocks -->
+          <div class="content-grid">
+            <div class="content-block">
+              <h3>CSS Grid</h3>
+              <p>
+                Perfect for two-dimensional layouts, allowing precise control
+                over both rows and columns simultaneously.
+              </p>
+            </div>
+            <div class="content-block">
+              <h3>Flexbox</h3>
+              <p>
+                Ideal for one-dimensional layouts, providing powerful alignment
+                and distribution capabilities.
+              </p>
+            </div>
+            <div class="content-block">
+              <h3>Media Queries</h3>
+              <p>
+                Enable responsive breakpoints that adapt the layout based on
+                screen size and device capabilities.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <h3>Quick Links</h3>
+          <div class="sidebar-item">
+            <h4>Design Resources</h4>
+            <p>Curated collection of modern design tools and inspiration.</p>
+          </div>
+          <div class="sidebar-item">
+            <h4>CSS Techniques</h4>
+            <p>Advanced CSS methods for creating stunning web layouts.</p>
+          </div>
+          <div class="sidebar-item">
+            <h4>Best Practices</h4>
+            <p>Industry standards for responsive and accessible design.</p>
+          </div>
+          <div class="sidebar-item">
+            <h4>Browser Support</h4>
+            <p>Compatibility guides for modern CSS features.</p>
+          </div>
+        </aside>
+
+        <!-- FEATURES: Demonstrates Flexbox for card layout -->
+        <section class="features" id="services">
+          <h2>Layout Features</h2>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">📱</div>
+              <h3>Mobile First</h3>
+              <p>
+                Designed with mobile devices as the primary focus, then enhanced
+                for larger screens using progressive enhancement.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">⚡</div>
+              <h3>Performance</h3>
+              <p>
+                Optimized CSS that loads quickly and renders efficiently across
+                all devices and connection speeds.
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🎨</div>
+              <h3>Modern Design</h3>
+              <p>
+                Contemporary visual aesthetics with smooth animations and
+                intuitive user interactions throughout.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER: Demonstrates CSS Grid and Flexbox combination -->
+      <footer class="footer" id="contact">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About This Demo</h3>
+            <p>
+              This webpage showcases modern CSS layout techniques including
+              Flexbox, CSS Grid, and responsive design principles. Built without
+              any frameworks or libraries.
+            </p>
+          </div>
+          <div class="footer-section">
+            <h3>Technologies Used</h3>
+            <ul>
+              <li><a href="#">CSS Grid Layout</a></li>
+              <li><a href="#">Flexbox</a></li>
+              <li><a href="#">Media Queries</a></li>
+              <li><a href="#">CSS Animations</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Design Principles</h3>
+            <ul>
+              <li><a href="#">Mobile-First Design</a></li>
+              <li><a href="#">Progressive Enhancement</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Performance</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- FLEXBOX: Footer bottom alignment -->
+        <div class="footer-bottom">
+          <p>&copy; 2025 Dabby & JO Company. Layouts and Responsive Design</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="#" aria-label="GitHub">🐙</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
